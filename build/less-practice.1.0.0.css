@@ -1,4 +1,15 @@
 body {
-  background-color: #FBC02D;
+  background-color: #C8E6C9;
+  color: #757575;
+}
+ul {
+  color: #000000;
+}
+ul:hover {
+  color: #FF0000;
+  font-size: large;
+}
+.tester {
+  border: 3px solid blue;
 }
 /*# sourceMappingURL=less-practice.1.0.0.css.map */

@@ -47,10 +47,10 @@
 	'use strict';
 	
 	var $ = __webpack_require__(1);
-	var makeBackgroundRed = __webpack_require__(2);
+	//var makeBackgroundRed = require('./background');
 	
 	$(document).ready(function () {
-	    makeBackgroundRed();
+	    //makeBackgroundRed();
 	});
 	
 	var QUESTIONS = [{
@@ -10362,20 +10362,6 @@
 	return jQuery;
 	} );
 
-
-/***/ },
-/* 2 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	var $ = __webpack_require__(1);
-	
-	var makeBackgroundRed = function makeBackgroundRed() {
-	    $('body').css('background-color', 'red');
-	};
-	
-	module.exports = makeBackgroundRed;
 
 /***/ }
 /******/ ]);
